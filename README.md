@@ -5,8 +5,8 @@ A high-performance, zero-dependency Python client and asynchronous proxy gateway
 ## Core Features
 
 - **Zero-Dependency Execution:** Developed strictly using the Python standard library to ensure absolute stability and lightweight execution without third-party packaging conflicts.
-- **Microsecond Stack-Based Ingestion & Flattening:** Utilizes a non-recursive, stack-based flattener to securely normalizes multi-format telematics logs (JSON, nested dictionaries, CSV, Key-Value) with sub-15 microsecond parsing guarantees.
-- **Asynchronous Local Proxy Gateway:** Built-in native `asyncio` TCP server that accepts local telemetry events concurrently, returning immediate acknowledgments while managing backstage network sync.
+- **Microsecond Stack-Based Ingestion & Flattening:** Utilizes a non-recursive, stack-based flattener to securely normalize multi-format telematics logs (JSON, nested dictionaries, CSV, Key-Value) with sub-15 microsecond parsing guarantees.
+- **Asynchronous Local Proxy Gateway:** Built-in `native asyncio` TCP server that accepts local telemetry events concurrently, returning immediate acknowledgments while managing backstage network sync.
 - **Resilient Zero-Loss Spooler:** Safely stores queued events in an append-only binary spool cache file during network blackouts, automatically draining and purging the spool when connectivity returns.
 
 ## Installation Guide
