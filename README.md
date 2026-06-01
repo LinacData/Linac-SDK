@@ -14,7 +14,7 @@ A high-performance, zero-dependency Python client and asynchronous proxy gateway
 Install the Linac SDK via `pip`:
 
 ```bash
-pip install linac
+pip install linacdata
 ```
 
 ### Basic Command Usage
