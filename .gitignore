@@ -1,0 +1,17 @@
+# Local Secrets & Developer Configurations
+.dev.vars
+.linacjson
+
+# Cloudflare Wrangler Cache & States
+.wrangler/
+
+# Python Compiler Cache
+__pycache__/
+*.pyc
+
+# Local Execution Logs
+*.log
+
+# Internal Planning Documents
+MASTER_PLAN.md
+
